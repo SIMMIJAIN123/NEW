@@ -1,0 +1,22 @@
+file.txt file
+
+git clone
+git status
+git branch
+git checkout -b new-branch-name
+git status
+git add .
+git commit -m "msg"
+
+git checkout main
+git pull origin main  # Pull latest changes from remote to avoid conflicts
+git push origin main
+
+
+
+
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+_______
+This means you have committed changes locally, but you haven’t pushed them to the remote repository yet.
+"nothing to commit,
