@@ -13,6 +13,13 @@ git pull origin main  # Pull latest changes from remote to avoid conflicts
 git push origin main
 
 
+git stash -> 
+git stash pop -> last stash apply and remove from the stash
+git stash apply -> the last stash apply and will keep this one also.
+
+git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then return and re-apply them later.
+
+
 
 
 Your branch is ahead of 'origin/main' by 1 commit.
