@@ -13,3 +13,6 @@ def func2(a,b,c):
 l2=[1,2,3]
 print(func2(*l2))   # unpacking
 
+def func3(**kwargs):
+    
+
