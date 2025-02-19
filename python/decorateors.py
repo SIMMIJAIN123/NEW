@@ -24,3 +24,20 @@ def hello():
 
 h1=decorateors(hello)
 h1()
+
+
+# function decorateors
+
+def method1(func):
+    def wrapper(*args):
+        for i in args:
+            print(i)
+        return func(*args)
+    return wrapper
+ 
+@method1
+def method2(a,b):
+        return a+b
+
+
+print(method2(3,5))
