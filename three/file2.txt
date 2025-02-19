@@ -1,9 +1,13 @@
-file2.txt
+In encapsulation use getter and setter method and varibale as pribvate
+for private varibale -> __varibalename
+that can't be use using class object can be print using method caliing
 
 
-"HII" this is i am added new lines here 
-
-simmi
 
 
-"I added new line here in main"
+class_object.py 
+inheritance.py 
+encapsulation.py 
+polymorphism.py
+class varibale.PY 
+static method

@@ -1,0 +1,7 @@
+Aggregation is when one object has another object, but both objects can live independently. Objects can exist separately
+Composition is when one object contains another object, and the contained object cannot exist without the container object.
+
+If the parent object is deleted, the child object can still exist.
+If the parent object is deleted, the child object is also deleted. The contained object is part of the container.
+
+

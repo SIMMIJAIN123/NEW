@@ -1,0 +1,125 @@
+Data Types:
+
+1. Numeric  -->  int , float , complex
+2. Sequence --> str, list(Ordered,mutable) ,tuple(Ordered,immutable)
+3. Mapping  --> dict(Ordered,immutable,key-values pairs wiwth unique key)
+4. Set      --> set (unordered, unique items)   ,frozenset  (Immutable set)
+5. Boolean   --> True,False
+6. bytes -> Immutable sequence of bytes (e.g., `b"hello"`)
+   bytearray-> Mutable sequence of bytes (e.g., `bytearray([65, 66, 67])`)
+   memoryview  ->Views of binary data (e.g., `memoryview(b"hello")`)
+
+
+Literals: Direct representation of data values (e.g., 10 for int, "Hello" for str).
+Identifiers: Names used to identify variables, functions, classes, etc. (e.g., my_var, Car).
+Reserved Words: Keywords in Python that cannot be used as identifiers (e.g., def, class, if, else).
+
+
+Operators in Python (Quick Overview):
+Arithmetic Operators: +, -, *, /, //, %, **
+Comparison Operators: ==, !=, >, <, >=, <=
+Logical Operators: and, or, not
+Assignment Operators: =, +=, -=, *=, /=
+Bitwise Operators: &, |, ^, ~, <<, >>
+Membership Operators: in, not in
+Identity Operators: is, is no
+
+
+Escape Characters in Python:
+Escape characters are special characters used within strings that trigger special behavior. They are preceded by a backslash (\).
+
+\n: Newline
+\t: Tab
+\\: Backslash
+\': Single quote
+\": Double quote
+\r: Carriage return
+\b: Backspace
+
+
+input , output
+name = input("Enter your name: ")
+print("Hello, " + name)
+
+
+
+Python Built-in Functions: Python provides many built-in functions that are commonly used in day-to-day programming. Some examples:
+
+len(): Returns the length of an object.
+type(): Returns the type of an object.
+int(): Converts a value to an integer.
+float(): Converts a value to a float.
+str(): Converts a value to a string.
+max(): Returns the largest item.
+min(): Returns the smallest item.
+abs(): Returns the absolute value of a number.
+
+
+Python Built-in Modules: Python has a rich set of built-in modules, which are pre-written Python code that provides functionality to help with specific tasks. Examples:
+
+math: Provides mathematical functions (e.g., sqrt(), pow()).
+random: Provides functions for generating random numbers (e.g., randint(), choice()).
+datetime: Used for working with date and time (e.g., datetime.now()).
+
+Example (using the math module):
+
+import math
+print(math.sqrt(16))  # Output: 4.0
+
+
+
+Decorateors:-> it's modify class and method without   modifying them.
+it's useful for logging, authentication,validation
+Built in decorateors:-> @staticmethod   -> In a class define a static method , not depend on class and object , is a normal function
+@property -> convert a method in a property -> turns a method into read only acess.
+@classmethod-> it takes class as first parameters.it can be modify class level attributes.
+
+
+
+varibales:-
+
+1. user_name = "John"  general varibale with lower case and underscore
+2. constant are all in uppercase
+3. _a ->private variables
+4. __a  -> strong private varibale 
+
+special method -> __init__
+private method -> _method1
+regular function -> add_number
+
+class name be like this one -> class EmployeeDetails:
+
+global varibale :-> UPPER_CASE
+
+
+
+Object-Oriented Programming (OOP) makes our code organized, reusable, scalable, and easy to maintain. It helps us model real-world things in programming.
+
+Here are the 4 main OOP concepts with real-world examples:
+
+1. Encapsulation (Data Hiding)
+📌 Why? To protect data and restrict direct access. It prevents accidental changes and keeps code secure.
+
+✅ Example (ATM Machine)
+
+Your bank account balance is private; you can’t access it directly.
+You can only withdraw or deposit using a provided method.
+🔹 Code Example:
+
+
+3. Polymorphism (Flexibility)
+📌 Why? To use the same method name but with different behaviors. It makes the code more flexible and scalable.
+
+✅ Example (Animal Sounds)
+
+All animals make a sound, but different animals have different sounds.
+Instead of defining different method names, we use one common method.
+
+4. Abstraction (Hiding Implementation)
+📌 Why? To hide complex details and only show necessary features. It helps in simplifying usage.
+
+✅ Example (Car Driving System)
+
+When you drive a car, you don’t need to know how the engine works internally.
+You just use steering, accelerator, and brakes (simplified interface).
+🔹 Code Example:
